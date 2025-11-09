@@ -12,7 +12,7 @@ These are the requirements to run multiple instances - **the script automates th
 # Instructions:
 - run the script as Administrator
 - enter the instance number you wish to create (press ENTER to accept "2" as default)
-- check if the displayed username/password/MCport/MCVersion are correct - **note the password written here!**
+- check if the displayed username/password/MCport/MCVersion (autodetected) are correct - **note the password written here!**
 - press ENTER to confirm 
 - the script will ask you to type the password once - **you must write the same password as given above!**
 - the instance and desktop shortcut will now be created
@@ -23,9 +23,9 @@ A new shortcut should show up on your desktop to start the instance; it will sta
 
 
 # Desktop Icon
-The script also places a shortcut under the Startup menu so that the new instance starts automatically after logon.
-
 The desktop icon is a .bat script, not a shortcut. If you prefer you can move the .bat somewhere else and create a real shortcut to it on the desktop - I attached a red MC icon I made for this purpose.
+
+The script also places a shortcut under the Startup menu so that the new instance starts automatically after logon.
 
 # Removing an instance
 To remove an instance:
