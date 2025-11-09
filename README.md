@@ -1,6 +1,8 @@
 # <img width=64 src="https://github.com/zybexXL/MakeMCServer/blob/main/JRiver-Red.png"> MakeMCServer
 Script to setup an MC Library Server instance
 
+Forum post: https://yabb.jriver.com/interact/index.php/topic,142497.0.html
+
 # Running multiple MC library servers on the same Windows PC
 This batch script adds a new MC Library Server instance. It creates a new [hidden] user account and adds a desktop shortcut to start the new server.
 
