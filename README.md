@@ -1,7 +1,4 @@
-# MakeMCServer
-
-<img align="right" src="https://github.com/zybexXL/MakeMCServer/blob/master/JRiver-Red.png">
-
+# <img width=64 src="https://github.com/zybexXL/MakeMCServer/blob/main/JRiver-Red.png"> MakeMCServer
 Script to setup an MC Library Server instance
 
 # Running multiple MC library servers on the same Windows PC
