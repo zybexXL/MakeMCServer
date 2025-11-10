@@ -5,6 +5,7 @@ Forum post: https://yabb.jriver.com/interact/index.php/topic,142498.0.html
 
 # Running multiple MC library servers on the same Windows PC
 This batch script adds a new MC Library Server instance. It creates a new Windows user account and adds a desktop shortcut to start the new server. The Windows account is hidden so that it doesn't show up on the Windows login screen.
+All instances run simultaneously and are visible the current user's desktop, despite each instance process running under a different account.
 
 These are the requirements to run multiple instances - **the script automates this for you**:
 - each MC instance must run under a different user account so that it has its own settings in the registry and its own files under the account profile folder (though they can all show up on the same desktop)
