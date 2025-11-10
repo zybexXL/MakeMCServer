@@ -16,20 +16,9 @@ pause
 goto :EOF
 
 :ok
-if exist c:\Windows\System32\MC28.exe set MCVER=28
-if exist c:\Windows\System32\MC29.exe set MCVER=29
-if exist c:\Windows\System32\MC30.exe set MCVER=30
-if exist c:\Windows\System32\MC31.exe set MCVER=31
-if exist c:\Windows\System32\MC32.exe set MCVER=32
-if exist c:\Windows\System32\MC33.exe set MCVER=33
-if exist c:\Windows\System32\MC34.exe set MCVER=34
-if exist c:\Windows\System32\MC35.exe set MCVER=35
-if exist c:\Windows\System32\MC36.exe set MCVER=36
-if exist c:\Windows\System32\MC37.exe set MCVER=37
-if exist c:\Windows\System32\MC38.exe set MCVER=38
-if exist c:\Windows\System32\MC39.exe set MCVER=39
-if exist c:\Windows\System32\MC40.exe set MCVER=40
-if "%MCVER%"=="" (
+set MCVER=none
+for /L %%v in (1 1 100) do if exist c:\Windows\System32\MC%%v.exe set MCVER=%%v
+if "%MCVER%"=="none" (
   echo Could not detect the installed MC version!
   set /p MCVER=Enter your current MC version [34]: || set MCVER=34
   echo.
