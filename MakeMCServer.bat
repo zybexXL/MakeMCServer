@@ -17,7 +17,7 @@ goto :EOF
 
 :ok
 set MCVER=none
-for /L %%v in (1 1 100) do if exist c:\Windows\System32\MC%%v.exe set MCVER=%%v
+for /L %%v in (1 1 69) do if exist c:\Windows\System32\MC%%v.exe set MCVER=%%v
 if "%MCVER%"=="none" (
   echo Could not detect the installed MC version!
   set /p MCVER=Enter your current MC version [34]: || set MCVER=34
