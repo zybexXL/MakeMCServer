@@ -22,7 +22,7 @@ These are the requirements to run multiple instances - **the script automates th
 That's it. A new shortcut should show up on your desktop to start the instance.
 
 # MC configuration
-MC will start as a brand new MC without any library, so you'll need to restore a backup or configure it from scratch. You'll also need to [re]enable the MediaNetwork to actually start serving the library - it will generate a new Access Key for that library. I recommend you put all libraries on a folder such as C:\MCLibraries and adjust the folder permissions so that all user accounts can read/write to it.
+MC will start as a brand new default library, so you'll need to restore a backup or configure it from scratch. You'll also need to [re]enable the MediaNetwork to actually start serving the library - it will generate a new Access Key for that library. I recommend you put all libraries on a folder such as C:\MCLibraries and adjust the folder permissions so that all user accounts can read/write to it.
 
 Additionally, you may need to open the TCP port on the Windows firewall and add a Port Forward rule for the new port on your router, depending on your network configuration.
 
