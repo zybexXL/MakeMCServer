@@ -9,7 +9,7 @@ This batch script adds a new MC Library Server instance. It creates a new Window
 These are the requirements to run multiple instances - **the script automates this for you**:
 - each MC instance must run under a different user account so that it has its own settings in the registry and its own files under the account profile folder (though they can all show up on the same desktop)
 - "Allow multiple instances" option must be checked on all instances
-- each instance must be using a different TCP port (52199 is the default for the main instance)
+- each instance must be using a different TCP port (52199 is the default for the main instance, 52201-52209 are used for other instances in this script)
 
 # Instructions
 - run the script as Administrator
