@@ -19,10 +19,14 @@ These are the requirements to run multiple instances - **the script automates th
 - the script will ask you to type the password once - **you must write the same password as given above!**
 - the instance and desktop shortcut will now be created
 
-That's it. 
+That's it. A new shortcut should show up on your desktop to start the instance.
 
-A new shortcut should show up on your desktop to start the instance; it will start as a brand new MC without any library, so you'll need to restore a backup or configure it from scratch. You'll also need to [re]enable the MediaNetwork to actually start serving the library - it will generate a new Access Key for that library. I recommend you put all libraries on a folder such as C:\MCLibraries and adjust the folder permissions so that all user accounts can read/write to it.
+# MC configuration
+MC will start as a brand new MC without any library, so you'll need to restore a backup or configure it from scratch. You'll also need to [re]enable the MediaNetwork to actually start serving the library - it will generate a new Access Key for that library. I recommend you put all libraries on a folder such as C:\MCLibraries and adjust the folder permissions so that all user accounts can read/write to it.
 
+Additionally, you may need to open the port on your firewall and add a Port Forward rule for the new TCP port on your router, depending on your network configuration.
+
+If you use a NAS without Anonymous access, then you may also need to add permissions for the new Windows account to be able to access it from the new MC instance.
 
 # Desktop Icon
 The desktop icon is a .bat script, not a shortcut. If you prefer you can move the .bat somewhere else and create a real shortcut to it on the desktop - I attached a red MC icon I made for this purpose.
