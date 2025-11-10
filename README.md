@@ -28,6 +28,12 @@ Additionally, you may need to open the TCP port on the Windows firewall and add 
 
 If you use a NAS without Anonymous access, then you may also need to add permissions for the new Windows account to be able to access it from the new MC instance.
 
+# MC Client connection
+MC Clients can connect to the library servers using any supported method:
+- using the generated Access Key for the new library
+- using an IP:port or HOSTNAME:port address such as 192.168.1.10:52202 or MYHTPC:52202
+- using the DLNA advertised library that should show up on other MC instances under the Playing Now > Playing From... tree node
+ 
 # Desktop Icon
 The desktop icon is a .bat script, not a shortcut. If you prefer you can move the .bat somewhere else and create a real shortcut to it on the desktop - I attached a red MC icon I made for this purpose.
 
