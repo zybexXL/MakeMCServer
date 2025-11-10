@@ -4,14 +4,14 @@ Script to setup an MC Library Server instance
 Forum post: https://yabb.jriver.com/interact/index.php/topic,142498.0.html
 
 # Running multiple MC library servers on the same Windows PC
-This batch script adds a new MC Library Server instance. It creates a new [hidden] user account and adds a desktop shortcut to start the new server.
+This batch script adds a new MC Library Server instance. It creates a new [hidden] Windows user account and adds a desktop shortcut to start the new server.
 
 These are the requirements to run multiple instances - **the script automates this for you**:
 - each MC instance must run under a different user account so that it has its own settings in the registry and its own files under the account profile folder (though they can all show up on the same desktop)
 - "Allow multiple instances" option must be checked on all instances
 - each instance must be using a different TCP port (52199 is the default for the main instance)
 
-# Instructions:
+# Instructions
 - run the script as Administrator
 - enter the instance number you wish to create (press ENTER to accept "2" as default)
 - check if the displayed username/password/MCport/MCVersion (autodetected) are correct - **note the password written here!**
